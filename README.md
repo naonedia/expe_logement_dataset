@@ -13,7 +13,34 @@
 * `dvf_nantes_cleaned.csv`: Original DVF
 * `origin_enriched_v2.csv`: DVF + POI
 * `origin_enriched_v3.csv`: DVF + POI + Economy
-* `dataset_ready_v1.csv`: DVF + POI + Economy, data one-hot encoded, ready to use
+
+#### origin_enriched_v4
+
+DVF + POI + Economy, data one-hot encoded, ready to use.
+Postal code are fixe, we added Nantes district to get more details.
+Contains longitude and latitude
+* `origin_enriched_v4_lonlat.csv`
+
+
+#### dataset_ready_v1
+
+DVF + POI + Economy, data one-hot encoded, ready to use.
+The second datasets has longitude and latitude for debugging purposes
+* `dataset_ready_v1.csv`
+* `dataset_ready_v1_lonlat.csv` 
+
+#### dataset_ready_v2
+
+DVF + POI + Economy, data one-hot encoded, ready to use.
+Postal code are fixe, we added Nantes district to get more details.
+Removed surface area < 25 m²
+Removed housing outside of this range: in 50k€ < price < 1M€
+Removed housing where price are less than 1600€/m²
+Removed housing where they had same size, sold date, longitude and latitude.
+
+The second datasets has longitude and latitude for debugging purposes
+* `dataset_ready_v2.csv`
+* `dataset_ready_v2_lonlat.csv`
 
 ### Finance
 
