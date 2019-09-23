@@ -8,6 +8,12 @@
 
 ## Datasets available
 
+### Neural networks
+
+* `current_model`: contains current model used in production.
+
+*N.B* the two data contained in COLUMNS_ORDER.csv are `mu` and `std` which are used to normalize data.
+
 ### Datasets
 
 * `dvf_nantes_cleaned.csv`: Original DVF
